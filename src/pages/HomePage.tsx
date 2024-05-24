@@ -1,6 +1,5 @@
 // import React from 'react'
 import Video from '../components/Video'
-
 import HeroSlider from "../components/HeroSlider"
 import AllCategory from "../components/AllCategory"
 import img1 from "../assets/monkey_home_1.jpeg"
@@ -13,6 +12,7 @@ import img6 from "../assets/Banner04.jpeg"
 import img7 from "../assets/Banner05.jpeg"
 import Items from "../components/Items"
 import useFetch from "../hooks/useFetch"
+
 
 const HomePage = () => {
   const { data, error, loading } = useFetch("/products/latest?id=1");
