@@ -46,7 +46,7 @@ export default function ProductDetail({ data }: { data: ProductType }) {
       <div className="col-span-4 pt-8 lg:pt-0">
         <div className="mb-7 border-b border-gray-300 pb-7">
           <h2 className="text-heading mb-3.5 text-lg font-bold md:text-xl lg:text-2xl 2xl:text-3xl">
-            {data?.name} Monkey Title added
+            {data?.name}
           </h2>
           <p className="text-body text-sm leading-6  lg:text-base lg:leading-8">
             {data?.description}
